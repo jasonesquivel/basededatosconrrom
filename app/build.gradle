@@ -1,11 +1,16 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
 }
 
 android {
     namespace 'ni.edu.uca.basededatosconrrom'
     compileSdk 32
+
+    buildFeatures{
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "ni.edu.uca.basededatosconrrom"
